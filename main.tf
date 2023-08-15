@@ -3,6 +3,10 @@ module "demo_ec2_dev" {
 
   ami = var.ami
   ec2_type = var.ec2_type
+  
+  tags = {
+    Name = var.ec2_name
+  }
 }
 
 
@@ -15,4 +19,8 @@ variable "ami" {
 variable "ec2_type" {
   type = string
   default = "t2.micro"
+}
+variable "ec2_name" {
+  type = string
+  default = "demo_ec2"
 }
