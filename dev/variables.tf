@@ -1,9 +1,9 @@
 variable "ami" {
   type = string
-  default = ""
+  default = "ami-04e35eeae7a7c5883"
 }
 
 variable "ec2_type" {
   type = string
-  default = ""
+  default = "t2.micro"
 }
