@@ -1,3 +1,3 @@
-module "demo_ec2_dev" {
-  source = "${path.module}"
+module "demo_ec2" {
+  source = "../modules/ec2"
 }
