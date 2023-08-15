@@ -7,3 +7,8 @@ variable "ec2_type" {
   type = string
   default = "t2.micro"
 }
+
+variable "ec2_name" {
+  type = string
+  default = "demo_ec2"
+}
