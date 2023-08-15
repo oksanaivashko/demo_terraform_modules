@@ -5,4 +5,3 @@ resource "aws_instance" "demo_ec2" {
     Name = var.ec2_name  
   }
 }
-

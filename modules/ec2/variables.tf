@@ -10,5 +10,5 @@ variable "ec2_type" {
 
 variable "ec2_name" {
   type = string
-  default = "demo_ec2"
+  default = "ec2_demo"
 }

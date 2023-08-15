@@ -3,6 +3,7 @@ module "demo_ec2_dev" {
 
   ami = var.ami
   ec2_type = var.ec2_type  
+  ec2_name = var.ec2_name
 }
 
 
