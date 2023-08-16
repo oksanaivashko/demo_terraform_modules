@@ -1,3 +1,3 @@
-module "demo_prod_ec2" {
+module "demo_prod_sg" {
   source = "../../modules/sg"
 }
