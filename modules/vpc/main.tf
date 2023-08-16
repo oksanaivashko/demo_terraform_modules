@@ -11,10 +11,10 @@ resource "aws_subnet" "demo_vpc_subnets" {
   map_public_ip_on_launch = true
 }
 
-output "vpc_id" {
-  value = module.demo_vpc.vpc_id
-}
-
-output "subnet_ids" {
-  value = module.demo_vpc.subnet_ids
-}
+#output "vpc_id" {
+#  value = module.demo_vpc.vpc_id
+#}
+#
+#output "subnet_ids" {
+#  value = module.demo_vpc.subnet_ids
+#}
