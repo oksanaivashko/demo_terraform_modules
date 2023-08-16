@@ -17,7 +17,7 @@
 To use this project:
 
 1. Clone this repository to your local machine.
-2. Navigate to the desired environment directory (e.g., `environments/dev` or `environments/prod`).
+2. Navigate to the desired environment directory ( `environments/dev` or `environments/prod`).
 3. Review and customize the configuration files as needed.
 4. Run `terraform init` to initialize the Terraform workspace.
 5. Run `terraform plan` to see the execution plan.
