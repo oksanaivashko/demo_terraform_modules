@@ -17,7 +17,6 @@ terraform {
 resource "aws_instance" "demo_ec2" {
   ami = var.ami
   instance_type = var.ec2_type
-  security_groups = [aws_security_group.demo_sg.name]
   tags = {
     Name = var.ec2_name  
   }
