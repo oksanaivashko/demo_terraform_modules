@@ -5,10 +5,10 @@
 # Structure
 ![Alt text](image.png)
 
-- `environments:` This directory contains environment-specific configurations. Each environment (e.g., dev and prod) has its own set of Terraform files, including main.tf for defining resources, variables.tf for input variables, and backend.tf for backend configuration.
+- `environments:` This directory contains environment specific configurations. Each environment dev and prod has its own set of Terraform files, including main.tf for defining resources, variables.tf for input variables, and backend.tf for backend configuration.
 
 
-- `modules:` This directory holds reusable modules that can be used across different environments. Each module (ec2, sg, and vpc) has its own set of Terraform files, including main.tf for defining module resources, variables.tf for input variables, and outputs.tf for module outputs.
+- `modules:` This directory holds reusable modules that can be used across different environments. Each module ec2, sg, and vpc has its own set of Terraform files, including main.tf for defining module resources, variables.tf for input variables, and outputs.tf for module outputs.
 
 
 
