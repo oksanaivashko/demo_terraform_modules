@@ -47,9 +47,9 @@ To use this demo repository:
 To deploy infrastructure resources, follow these steps:
 
 1. Navigate to the appropriate environment directory (environments/dev).
-Customize the variables.tf and main.tf files to match your desired configuration.
-Run terraform init to initialize the environment
-Run terraform apply to create or update resources
+2. Customize the variables.tf and main.tf files to match your desired configuration.
+3. Run terraform init to initialize the environment
+4. Run terraform apply to create or update resources
 
 ## License
 
