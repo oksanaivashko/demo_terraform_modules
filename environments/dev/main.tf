@@ -3,6 +3,8 @@
 module "demo_ec2" {
   source = "../../modules/ec2"
   instance_count = 3
+  instance_name = "demo_ec2"
+  ami = "ami-04e35eeae7a7c5883"
 }
 
 # --- Terraform module to create sg ---
