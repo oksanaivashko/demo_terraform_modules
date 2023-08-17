@@ -2,15 +2,9 @@
 
 
 module "demo_ec2_dev" {
-  count = 5
   source = "../../modules/ec2"
+  instance_count = 2
 }
-
-
-#  ami = var.ami
-#  ec2_type = var.ec2_type
-#  ec2_name = var.ec2_name
-#}
 
 
 # --- Terraform module to create sg ---
