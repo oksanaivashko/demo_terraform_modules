@@ -3,7 +3,7 @@
 module "demo_vpc" {
   source = "../../modules/sg"
   instance = "demo_ec2"
-  instance_count =3
+  instance_count = 3
 }
 
 # --- Terraform module to create sg ---
