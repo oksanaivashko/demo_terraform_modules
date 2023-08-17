@@ -1,10 +1,22 @@
 # --- Terraform module to create ec2 Insance ---
 
-module "demo_ec2" {
+module "dev_ec2" {
   source = "../../modules/ec2"
-  instance_count = 3
-  ami = "ami-04e35eeae7a7c5883"
 }
+
+
+
+
+
+
+
+
+
+#module "demo_ec2" {
+#  source = "../../modules/ec2"
+#  instance_count = 3
+#  ami = "ami-04e35eeae7a7c5883"
+#}
 
 # --- Terraform module to create sg ---
 
