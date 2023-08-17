@@ -3,7 +3,6 @@
 
 module "demo_ec2_dev" {
   source = "../../modules/ec2"
-  instance_count = 2
 }
 
 
