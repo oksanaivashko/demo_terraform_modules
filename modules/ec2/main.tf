@@ -15,6 +15,7 @@ terraform {
 # --- Create ec2 Instance ---
 
 resource "aws_instance" "demo_ec2" {
+  count         = var.instance_count
   ami = var.ami
   instance_type = var.ec2_type
   tags = {

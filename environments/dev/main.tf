@@ -1,16 +1,14 @@
 # --- Terraform module to create ec2 Insance ---
 
-
-module "demo_ec2_dev" {
-  source = "../../modules/ec2"
+module "demo_vpc" {
+  source = "../../modules/sg"
+  instance = "demo_ec2"
+  instance_count =3
 }
-
 
 # --- Terraform module to create sg ---
 
-#module "demo_dev_sg" {
-#  source = "../../modules/sg"
-#}
+
 
 # --- Terraform module to vpc ---
 
