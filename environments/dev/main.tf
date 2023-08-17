@@ -2,7 +2,8 @@
 
 module "dev_ec2" {
   source = "../../modules/ec2"
-  count = 3
+  instance_count = 3
+  ami = "ami-04e35eeae7a7c5883"
 }
 
 
