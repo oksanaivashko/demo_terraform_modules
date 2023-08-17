@@ -2,6 +2,7 @@
 
 module "dev_ec2" {
   source = "../../modules/ec2"
+  count = 3
 }
 
 
