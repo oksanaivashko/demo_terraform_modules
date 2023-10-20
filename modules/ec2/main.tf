@@ -25,7 +25,7 @@ resource "aws_instance" "demo_ec2" {
 
 
 
-resource "aws_instance" "demo_ec2" {
-  ami = "ami-0df435f331839b2d6"
-  instance_type =  "t2.micro"
-}
+#resource "aws_instance" "demo_ec2" {
+#  ami = "ami-0df435f331839b2d6"
+#  instance_type =  "t2.micro"
+#}
