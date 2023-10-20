@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        TF_ENV = (BRANCH_NAME == 'dev') ? 'dev' : 'prod'
+        TF_ENV = (BRANCH_NAME == 'dev') ? 'dev' : ''
     }
 
     stages {
