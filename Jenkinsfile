@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        TF_ENV = (BRANCH_NAME == 'dev') ? 'dev' : 'prod'
-    }
+    _ENV = (BRANCH_NAME == 'dev') ? 'dev' : ''
+}
 
     stages {
         stage('terraform init') {

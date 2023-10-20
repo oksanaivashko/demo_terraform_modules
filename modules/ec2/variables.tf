@@ -1,6 +1,6 @@
 variable "ami" {
   type = string
-  default = "ami-04e35eeae7a7c5883"
+  default = "ami-0df435f331839b2d6"
 }
 
 variable "ec2_type" {
